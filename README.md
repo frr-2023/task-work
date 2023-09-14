@@ -107,8 +107,8 @@ server=/test/192.168.49.2
 ```
 
 Links:
-http://task-work.test/
-http://task-work.test/metrics
-http://prometheus.test/
+[http://task-work.test/](http://task-work.test/)
+[http://task-work.test/metrics](http://task-work.test/metrics)
+[http://prometheus.test/](http://prometheus.test)
 
 

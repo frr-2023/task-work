@@ -34,7 +34,3 @@ def index():
 start_http_server(9090)
 app.run(host='0.0.0.0', port=8080)
 
-
-#TODO: Review how the key works with redis.
-#TODO: ns for application and redis
-#TODO: fix the environment variables for docker-compose

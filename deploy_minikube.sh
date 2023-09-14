@@ -7,6 +7,7 @@ declare -A helm_installations=(
 )
 
 deploy_release_helm(){
+  #Simple function to install the helm application in a namespace
   release_name=$(basename $1)
   namespace=$2
   cd $1
@@ -16,13 +17,9 @@ deploy_release_helm(){
   cd -
 }
 
-
-
-
 #Create dependencies as namespaces and the secret for redis.
 #This resources are created with a simple manifests.
-
-#echo "Creating Dependencies..."
+echo "Creating Dependencies..."
 kubectl apply -f .dependencies/resources.yaml
 
 
